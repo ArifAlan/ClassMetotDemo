@@ -27,7 +27,7 @@ namespace ClassMetotDemo
                 Console.WriteLine("Müşteri yaşı : " + musteri.Yasi);
                 Console.WriteLine("Müşteri şehri : " + musteri.Sehri);
 
-                Console.WriteLine("                ");
+                Console.WriteLine("   bu kadar aq             ");
 
             }
             

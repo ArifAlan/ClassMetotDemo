@@ -10,7 +10,7 @@ namespace ClassMetotDemo
     {
         public void Ekle()
         {
-            Console.WriteLine("Tebrikler müşteri başarıyla kaydedildi.");
+            Console.WriteLine("Tebrikler müşterii başarıyla kaydedildi.");
         }
         public void Silme()
         {
