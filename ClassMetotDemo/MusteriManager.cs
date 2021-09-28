@@ -8,13 +8,22 @@ namespace ClassMetotDemo
 {
     class MusteriManager
     {
-        public void Ekle()
+        public void Ekle(Musteri kullanıcılar )
         {
-            Console.WriteLine("Tebrikler müşteri başarıyla kaydedildi.");
+            Console.WriteLine("Tebrikler müşteri başarıyla eklenildi.");
+            Console.WriteLine("Müşteri adı : " + kullanıcılar.Adi);
+
         }
-        public void Silme()
+        public void Silme(Musteri kullanıcılar)
         {
             Console.WriteLine("Tebrikler müşteri başarıyla silindi.");
+            Console.WriteLine("Müşteri adı : "+kullanıcılar.Adi);
+        }
+
+        public void Liste(Musteri kullanıcılar)
+        {
+            Console.WriteLine("Kişiler listelendi.");
+            Console.WriteLine("Müşteri adı : " + kullanıcılar.Adi);
         }
 
     }

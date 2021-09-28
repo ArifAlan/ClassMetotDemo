@@ -32,11 +32,21 @@ namespace ClassMetotDemo
             }
             
             MusteriManager musteriManager = new MusteriManager();
+            Console.WriteLine("Müşteri Ekleme : ");
+      
+                musteriManager.Ekle(kullanıcı1);
+                musteriManager.Ekle(kullanıcı2);
+                Console.WriteLine(" ");
+               
+              Console.WriteLine("Müşteri silme : ");
+                musteriManager.Silme(kullanıcı1);
+               
+            musteriManager.Silme(kullanıcı2);
+                Console.WriteLine(" ");
+                musteriManager.Liste(kullanıcı1);
+                musteriManager.Liste(kullanıcı2);
+            
 
-            musteriManager.Ekle();
-            musteriManager.Silme();
-
-          
         }
     }
 }
