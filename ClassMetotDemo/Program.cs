@@ -43,6 +43,9 @@ namespace ClassMetotDemo
                
             musteriManager.Silme(kullanıcı2);
                 Console.WriteLine(" ");
+
+
+            Console.WriteLine("Kullancı Listeleme : ");
                 musteriManager.Liste(kullanıcı1);
                 musteriManager.Liste(kullanıcı2);
             
