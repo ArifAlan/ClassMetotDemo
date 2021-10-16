@@ -6,19 +6,19 @@ namespace ClassMetotDemo
     {
         static void Main(string[] args)
         {
-            Musteri kullanıcı1 = new Musteri();
-            kullanıcı1.Id = 1;
-            kullanıcı1.Adi = "Engin Demiroğ";
-            kullanıcı1.Yasi = 33;
-            kullanıcı1.Sehri = "Diyarbakır";
+            Musteri kullanici1 = new Musteri();
+            kullanici1.Id = 1;
+            kullanici1.Adi = "Engin Demiroğ";
+            kullanici1.Yasi = 33;
+            kullanici1.Sehri = "Diyarbakır";
 
-            Musteri kullanıcı2 = new Musteri();
-            kullanıcı2.Id = 2;
-            kullanıcı2.Adi = "Kaan Gök";
-            kullanıcı2.Yasi = 24;
-            kullanıcı2.Sehri = "Gaziantep";
+            Musteri kullanici2 = new Musteri();
+            kullanici2.Id = 2;
+            kullanici2.Adi = "Kaan Gök";
+            kullanici2.Yasi = 24;
+            kullanici2.Sehri = "Gaziantep";
 
-            Musteri[] kullancılar = new Musteri[] {kullanıcı1, kullanıcı2};
+            Musteri[] kullancılar = new Musteri[] { kullanici1, kullanici2 };
 
             foreach (var musteri in kullancılar) 
             {
@@ -34,20 +34,20 @@ namespace ClassMetotDemo
             MusteriManager musteriManager = new MusteriManager();
             Console.WriteLine("Müşteri Ekleme : ");
       
-                musteriManager.Ekle(kullanıcı1);
-                musteriManager.Ekle(kullanıcı2);
+                musteriManager.Ekle(kullanici1);
+                musteriManager.Ekle(kullanici2);
                 Console.WriteLine(" ");
                
               Console.WriteLine("Müşteri silme : ");
-                musteriManager.Silme(kullanıcı1);
+                musteriManager.Silme(kullanici1);
                
-            musteriManager.Silme(kullanıcı2);
+            musteriManager.Silme(kullanici2);
                 Console.WriteLine(" ");
 
 
             Console.WriteLine("Kullancı Listeleme : ");
-                musteriManager.Liste(kullanıcı1);
-                musteriManager.Liste(kullanıcı2);
+                musteriManager.Liste(kullanici1);
+                musteriManager.Liste(kullanici2);
             
 
         }
